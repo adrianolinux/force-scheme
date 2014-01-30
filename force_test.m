@@ -4,7 +4,8 @@ t = x(:,end);
 x = x(:,1:end-1);
 
 tic
-y = force(x);
+options.data_type = 'data';
+y = force(x,options);
 toc
 
 % plot results
