@@ -37,8 +37,7 @@ end
 N = size(X,1);
 
 % inicializacao
-Y(:,1) = rand(N,1);
-Y(:,2) = rand(N,1);
+Y = rand(N,2);
 
 %--------------%
 % Force Scheme %
